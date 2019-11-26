@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/muditF1/react-demo/static/css/main.a6ad844f.chunk.css",
+    "main.js": "/muditF1/react-demo/static/js/main.d706a9bf.chunk.js",
+    "main.js.map": "/muditF1/react-demo/static/js/main.d706a9bf.chunk.js.map",
+    "runtime-main.js": "/muditF1/react-demo/static/js/runtime-main.0dcaaf02.js",
+    "runtime-main.js.map": "/muditF1/react-demo/static/js/runtime-main.0dcaaf02.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/muditF1/react-demo/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.49b130ef.chunk.js": "/muditF1/react-demo/static/js/2.49b130ef.chunk.js",
+    "static/js/2.49b130ef.chunk.js.map": "/muditF1/react-demo/static/js/2.49b130ef.chunk.js.map",
+    "index.html": "/muditF1/react-demo/index.html",
+    "precache-manifest.befb28aa51c18678b570cd1ddc582d16.js": "/muditF1/react-demo/precache-manifest.befb28aa51c18678b570cd1ddc582d16.js",
+    "service-worker.js": "/muditF1/react-demo/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/muditF1/react-demo/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.a6ad844f.chunk.css.map": "/muditF1/react-demo/static/css/main.a6ad844f.chunk.css.map",
+    "static/media/App.css": "/muditF1/react-demo/static/media/SEGA.12a3db8b.woff",
+    "static/media/index.css": "/muditF1/react-demo/static/media/bkg-img.5b6b8736.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dcaaf02.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.49b130ef.chunk.js",
+    "static/css/main.a6ad844f.chunk.css",
+    "static/js/main.d706a9bf.chunk.js"
+  ]
+}
