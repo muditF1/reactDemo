@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import CardList from './CardList';
 import './App.css';
 import SearchBox from './SearchBox';
-import { robots } from './robots';
 
 class App extends Component {
 
   constructor() {
     super();
     this.state = {
-      robots: robots,
+      robots: [],
       searchfield: ''
     }
   }
@@ -20,9 +19,8 @@ class App extends Component {
 
   render() {
     const filteredRobots = this.state.robots.filter(robots => {
-        return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
-      });
-      console.log(filteredRobots);
+      return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    });
 
     return (
       <div className='tc'>
@@ -31,6 +29,16 @@ class App extends Component {
         <CardList robots={filteredRobots} />
       </div>
     );
+  }
+
+  componentDidMount() {
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response => {
+        return response.json();
+      })
+      .then(users => {
+        this.setState({ robots: users })
+      })
   }
 }
 
