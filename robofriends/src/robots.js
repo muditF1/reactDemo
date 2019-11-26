@@ -16,5 +16,17 @@ export const robots = [
         name: 'Naina Singh',
         username: 'naina',
         email: 'naina.singh@gmail.com'
+    },
+    {
+        id: 4,
+        name: 'Nayan Prakash Singh',
+        username: 'nayan',
+        email: 'nayan.singh58@gmail.com'
+    },
+    {
+        id: 5,
+        name: 'Madhubala Singh',
+        username: 'madhu',
+        email: 'madhu.singh61@gmail.com'
     }
 ];
